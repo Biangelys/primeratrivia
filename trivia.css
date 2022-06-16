@@ -1,0 +1,125 @@
+body {
+    color: white;
+    text-align: center;
+    font-family: Verdana;
+    height :665px;
+    background-image: url(https://i.pinimg.com/564x/e6/61/94/e6619475d63352474ba942e540ac2f8b.jpg);
+    background-size: cover;
+  }
+  header{
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  border-radius: 30px;
+  }
+  
+  .container{
+    text-transform: uppercase;
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 7px solid rgb(60, 13, 228);
+  }
+
+.container1{
+  text-transform: uppercase;
+  text-align: center;
+  text-rendering: geometricPrecision;
+  text-shadow: 30px;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  color: #fff ;
+}
+
+  section{
+  text-transform: uppercase;
+  border: 2px solid;
+  border-radius: 7px;
+  padding: 10px;
+  margin: 10px 0;
+ 
+         }
+        
+  
+  label{
+    display: block;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: text;
+    border: 2px solid rgb(60, 13, 228);
+    margin-bottom: 10px;
+    size: 10px;
+  }
+  .label:hover{
+    background: #0ad80a;
+  }
+  button{
+    width: 60%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    text-overflow: unset;
+    text-align-last: center;
+    background-image: none;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  button:hover{
+    background-color: rgb(186, 185, 188);
+  }
+
+  h2{
+    text-align: center; 
+  }
+  h1{
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    display: block;
+    text-transform: uppercase;
+    border: 6px solid #000;
+    border-radius: 7px;
+    padding: 15px;
+    font-style: italic;
+    background-color: #000;
+  }
+ 
+img.chew{
+  width: 160px;
+  height: 100px;
+        }
+img.dispara{
+  width: 160px;
+  height: 100px; 
+}
+img.planeta{
+  width: 160px;
+  height: 100px;
+}
+img.mentor{
+  width: 160px;
+  height: 100px;
+}
+
+img.casa{
+  width: 160px;
+  height: 100px;
+        }
+img.bastardo{
+  width: 160px;
+  height: 100px; 
+}
+img.lobos{
+  width: 160px;
+  height: 100px;
+}
+img.khaleesi{
+  width: 160px;
+  height: 100px;
+}
+

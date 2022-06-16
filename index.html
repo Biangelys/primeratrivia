@@ -1,0 +1,42 @@
+<!--Esta es la primera página de bienvenida de nuestra Trivia-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="trivia.css">
+  
+<body>
+  <h1>Bienvenidos a la Trivia mística e intergaláctica</h1>
+
+  <label class=container1>
+    <label for="name">¿Cuál es tu nombre?
+    </label>
+    <br><input type="text" id="name"> </br>
+  </label>
+ 
+  
+  <form action="" method="">
+    
+   <br><strong> Elije sabiamente:</strong></br>
+
+    <br><button onclick="saludo()"> <a href='https://trivia.biantrixdev.repl.co/trivia.html'>
+      <img src="https://i.ibb.co/1smQMf8/hbo-series-spin-off-de-game-of-thrones.jpg" alt="got" border="0" width="60%" </img>
+      <br>Juego de Tronos</br></a></button> </br>
+    <br><button onclick="saludo()"> <a href='https://trivia.biantrixdev.repl.co/trivia1.html'><img src="https://i.ibb.co/qy3WQSH/starwar.jpg" alt="starwar" border="0" width="60%"</img>
+      <br>Star Wars</br></a></button></br>
+    
+  </form>
+<script>
+        function saludo() {
+          let name = document.getElementById("name");
+          let sobrenombre = name.value;
+          alert(" Bienvenido " + sobrenombre + " ¿List@ para jugar? ") ;
+        }
+    
+  </script>
+
+</body>
+
+</html>
